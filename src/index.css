@@ -229,3 +229,114 @@ hr{
   justify-content: center;
   align-items: center;
 }
+
+
+/* Mobile and small tablet screens */
+@media (max-width: 768px) {
+  body {
+    width: 90vw;
+    padding: 10px;
+  }
+
+  .main {
+    margin: 40px 0;
+    gap: 30px;
+  }
+
+  .intro {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .right h1 {
+    font-size: 2.2rem;
+  }
+
+  .about,
+  .skills,
+  .contact {
+    text-align: center;
+  }
+
+  .about button,
+  .skills button {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .tiles {
+    flex-direction: column;
+    align-items: center;
+    max-width: 90vw;
+  }
+
+  .project-tab {
+    width: 90vw;
+    padding: 20px;
+  }
+
+  .project-tab video {
+    max-width: 100%;
+  }
+
+  .resume button {
+    margin-top: 20px;
+    padding: 8px;
+  }
+
+  .contact h4 {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .contact a img {
+    height: 18px;
+    width: 18px;
+  }
+
+  .contact h2,
+  .projects h2 {
+    font-size: 22px;
+  }
+
+  .right h3 {
+    font-size: 18px;
+  }
+
+  .right h5 {
+    font-size: 14px;
+  }
+
+  .pfp {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .right h1 {
+    font-size: 1.8rem;
+  }
+
+  .project-tab {
+    padding: 15px;
+  }
+
+  .about button img,
+  .skills button img,
+  .projects button img {
+    height: 12px;
+  }
+
+  .projects button {
+    font-size: 13px;
+  }
+}
