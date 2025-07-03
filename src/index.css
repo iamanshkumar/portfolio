@@ -1,0 +1,231 @@
+*{
+  font-family: "Geist Mono";
+}
+
+html{
+  background-color: #101010;
+  color: white;
+}
+
+body{
+  height: 100%;
+  width: 45vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.pfp{
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  object-fit:cover;
+}
+
+.intro{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.183);
+  border-radius: 20px;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  gap: 0px;
+  line-height: 25px;
+}
+
+.right h1,h3,h5{
+  margin: 0;
+  padding: 5px;
+}
+
+.right h5{
+  font-weight: 100;
+}
+
+.right h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(-45deg, #ff6ec4, #7873f5, #4ade80, #facc15);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 5s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.about{
+  font-weight: 100;
+  text-justify: center;
+  line-height: 25px;
+}
+
+.about button{
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.about button img{
+  height: 15px;
+  object-fit: contain;
+}
+
+.skills{
+  display: flex;
+  gap: 10px;
+}
+
+.skills button{
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.skills button img{
+  height: 15px;
+  object-fit: contain;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 100px;
+}
+
+.resume button{
+  background-color: #202020;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.resume a{
+  color: rgb(0, 162, 255);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.contact h4{
+  font-weight: 100;
+  text-justify: center;
+}
+
+.contact a{
+  display: flex;
+  align-items: center; /* vertical alignment */
+  gap: 8px;            /* space between image and text */
+  text-decoration: none;
+  color: white;  
+}
+
+.contact h2{
+  color: rgb(0, 162, 255);
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.contact a img{
+  height: 20px;
+  width: 20px;
+}
+
+hr{
+  background-color: rgba(255, 255, 255, 0.256);
+  height: 1px;
+  border: none;
+}
+
+.project-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 30vw;
+  border: 1px solid rgba(255, 255, 255, 0.256);
+  padding: 30px;
+  border-radius: 30px;
+  padding-top: 10px;
+  margin-top: 50px;
+}
+
+.project-tab video {
+  width: 100%;           /* or use a fixed size like 250px */
+  max-width: 350px;      /* makes it small */
+  overflow: hidden;
+  display: block;
+}
+
+.links{
+  display: flex;
+  gap: 10px;
+}
+
+.projects h2{
+  color: rgb(0, 162, 255);
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.projects a{
+  display: flex;
+  align-items: center; /* vertical alignment */
+  gap: 8px;            /* space between image and text */
+  text-decoration: none;
+  color: black;  
+}
+
+.projects button{
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.projects button img{
+  height: 15px;
+  object-fit: contain;
+}
+
+.project-tab p{
+  font-weight: 100;
+}
+
+
+.tiles{
+  display: flex;
+  gap: 10px;
+  max-width: 50vw;
+  justify-content: center;
+  align-items: center;
+}
