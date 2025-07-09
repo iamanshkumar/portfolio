@@ -53,7 +53,7 @@ const App = () => {
         and modern development workflows.
         <div className="resume">
           <button>
-            <a href="/ansh-resume.pdf" download>
+            <a href="/anshkumar-resume.pdf" download>
               Resume
             </a>
           </button>
@@ -130,7 +130,7 @@ const App = () => {
         <h4><a href="https://github.com/iamanshkumar" target="_blank"><img src="/github-white.png" alt="" />@iamanshkumar</a></h4>
         <h4><a href="https://www.linkedin.com/in/anshkumar46/" target="_blank"><img src="/linkedin.png" alt="" />Ansh Kumar</a></h4>
         <h4><a href="https://x.com/iamanshkumar" target="_blank"><img src="/x.png" alt="" />@iamanshkumar</a></h4>
-        <h4><a href="ansh-resume.pdf" download><img src="/resume.png" alt="" />Resume</a></h4>
+        <h4><a href="anshkumar-resume.pdf" download><img src="/resume.png" alt="" />Resume</a></h4>
         <h4><a href="mailto:anshagroia@gmail.com"><img src="/mail.png" alt="" />anshagroia@gmail.com</a></h4>
       </div>
     </div>
